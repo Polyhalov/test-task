@@ -6,7 +6,6 @@ function deepEqual(obj1, obj2) {
         console.log(false)
     }
 }
-// прирівняли обидва об'єкти до строки і порівняли їх
 
 deepEqual({name: 'test'}, {name: 'test'}) // output true
 deepEqual({name: 'test'}, {name: 'test1'}) // output false
